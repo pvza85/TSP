@@ -1,0 +1,17 @@
+[main]
+
+problem = tsp
+
+files =
+	Evaluate.java
+	Individual.java
+	nearestNeighbor.java
+	Problem.java
+	Solver03.java
+	TSP.java
+	TwoOPT.java
+	report.txt
+build =
+
+run =
+    java -jar HBEDA.jar %f

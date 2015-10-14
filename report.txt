@@ -1,0 +1,16 @@
+Student name: Payam Azad	
+Student no: 504111553
+
+Problem name (KS, TSP, GC): TSP
+Instance no: 4
+
+Programming environment (operating system, programming languagae, IDE, ...):
+Windows 8, Java, NetBeans
+
+Approach used (e.g. dynamic programming, tabu search, custom heuristic, ...):
+Nearest Neighbor Greedy Algorithm, 2-OPT Local Search with Simulated Anealing
+
+Description of approach used (max 200 words):
+At first program try to solve the problem with Nearest Neighbor Greedy Algorithm and then Start to search locally using 2-OPT operator. At each step we have
+a random walk factor that let's our agent to take worsening steps. This factor decrease by each step and at least reach very close to zero.
+
